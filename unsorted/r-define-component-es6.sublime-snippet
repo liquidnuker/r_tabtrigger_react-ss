@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+class ${1:Component1} extends React.Component {
+  render() {
+    return (
+      ${2:<div></div>}
+    );
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>r-component-es6</tabTrigger>
+  <description>react define component ES6 class</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.jsx, source.js</scope>
+</snippet>
