@@ -1,10 +1,11 @@
 <snippet>
   <content><![CDATA[
-import ${1:\{${2:}\}} from "${3:}";
+import React from "react";
+import ReactDOM from "react-dom";
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>import</tabTrigger>
-  <description>import "" from "./"</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.js, source.jsx</scope>
+  <description>react-import default</description>
+  <scope>source.jsx, source.js</scope>
 </snippet>
