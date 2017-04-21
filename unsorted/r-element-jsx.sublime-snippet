@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+const ${1:element1} = (
+  ${2:<Component1 />}
+  );
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>r-element-jsx</tabTrigger>
+  <description>react const element1 = (&lt;...&gt;)</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.jsx, source.js</scope>
+</snippet>
