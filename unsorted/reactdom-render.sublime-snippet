@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+ReactDOM.render(
+  ${1:<div>content</div>},
+  document.getElementById('${2:}')
+);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>r-render</tabTrigger>
+  <description>ReactDOM.render</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.jsx, source.js</scope>
+</snippet>
