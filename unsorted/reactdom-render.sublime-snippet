@@ -6,7 +6,7 @@ ReactDOM.render(
 );
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>r-render</tabTrigger>
+  <tabTrigger>re-render</tabTrigger>
   <description>ReactDOM.render</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.jsx, source.js</scope>
