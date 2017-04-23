@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+setState(prevState => ({
+  ${1:property1}: ${2:store.state}
+}));
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>setState()</tabTrigger>
+  <description>react setState(prevState =&gt;)</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.jsx, source.js</scope>
+</snippet>
