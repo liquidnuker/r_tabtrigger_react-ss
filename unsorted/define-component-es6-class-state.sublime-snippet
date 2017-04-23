@@ -1,0 +1,35 @@
+<snippet>
+  <content><![CDATA[
+class ${1:ComponentWithState} extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      ${2:property1}: ""
+    };
+
+    // 
+    this.${3:method1} = this.${3:method1}.bind(this);
+  }
+
+  // lifecycle hooks
+  
+  // methods
+  ${3:method1}() {
+    this.setState(prevState => ({
+      ${2:property1}: store.state
+    }));
+  }
+
+  render() {
+    return (
+      ${4:<div onClick=\{this.${3:method1}\}></div>}
+    );
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>re-define-component-es6-state</tabTrigger>
+  <description>react comp es6 class state</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.jsx, source.js</scope>
+</snippet>
