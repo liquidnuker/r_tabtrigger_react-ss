@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+componentDidMount() {
+  ${1:console.log("componentDidMount");}
+}
+
+componentWillUnmount() {
+  ${2:console.log("componentWillUnmount");}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>re-cycle-hooks</tabTrigger>
+  <description>react lifecycle hooks</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.jsx, source.js</scope>
+</snippet>
