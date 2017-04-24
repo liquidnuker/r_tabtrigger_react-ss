@@ -1,11 +1,27 @@
 <snippet>
   <content><![CDATA[
 componentDidMount() {
-  ${1:console.log("componentDidMount");}
+  console.log("componentDidMount");
 }
 
 componentWillUnmount() {
-  ${2:console.log("componentWillUnmount");}
+  console.log("componentWillUnmount");
+}
+
+componentWillReceiveProps() {
+  console.log("componentWillReceiveProps");
+}
+
+// shouldComponentUpdate() {
+//   console.log("shouldComponentUpdate");
+// }
+
+componentWillUpdate() {
+  console.log("componentWillUpdate");
+}
+
+componentDidUpdate() {
+  console.log("componentDidUpdate");
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
