@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+{${1:state} ? '${2:true}' : '${3:false}'}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>re-cond-inline</tabTrigger>
+  <description>react {state ? 'true':'false'}</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.jsx, source.js</scope>
+</snippet>
