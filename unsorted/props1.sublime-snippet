@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+function Component1(props) {
+  return (
+    <h1>Text... {props.id}</h1>
+    );
+}
+
+const element = (
+  <Component1 id="xx" />
+  );
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>re-props</tabTrigger>
+  <description>react Component(props) {props.id}...</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.jsx, source.js</scope>
+</snippet>
