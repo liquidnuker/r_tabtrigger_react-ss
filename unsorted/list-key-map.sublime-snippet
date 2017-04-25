@@ -1,13 +1,27 @@
 <snippet>
   <content><![CDATA[
-const ${1:todoItems} = ${2:todos}.map((item) =>
-  <${3:span} key={item.${5:id}}>
-    {item.${4:text}} {item.${5:id}}
-  </${3:span}>
+const data1 = [1,2,3,4,5];
+
+function ${1:ListComponent}(props) {
+  // const numbers = props.dataSrc;
+  // const listItems = numbers.map((number) =>
+
+  const listItems = props.dataSrc.map((item) =>
+    <li key={item.toString()}>
+      {item}
+    </li>
   );
   return (
-    <div>{${1:todoItems}}</div>
+    <ul>
+      {listItems}
+    </ul>
   );
+};
+
+ReactDOM.render(
+  <${1:ListComponent} dataSrc={data1} />,
+  document.getElementById('root')
+);
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>re-list-key-map</tabTrigger>
