@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+const ${1:todoItems} = ${2:todos}.map((item) =>
+  <${3:span} key={item.${5:id}}>
+    {item.${4:text}} {item.${5:id}}
+  </${3:span}>
+  );
+  return (
+    <div>{${1:todoItems}}</div>
+  );
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>re-list-key-map</tabTrigger>
+  <description>react map((item) =&gt; &lt;li key={item.id}&gt;</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.jsx, source.js</scope>
+</snippet>
