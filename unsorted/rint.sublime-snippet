@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+{${1:props}${2:}}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rint</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>react {interpolate}</description>
+  <scope>source.jsx, source.js</scope>
+</snippet>
