@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<${1:Component1} />
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>re-tag</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>react &lt;Component /&gt; tag</description>
+  <scope>source.jsx, source.js</scope>
+</snippet>
