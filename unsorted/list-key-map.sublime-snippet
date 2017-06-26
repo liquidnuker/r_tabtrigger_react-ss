@@ -3,8 +3,7 @@
 const data1 = [1,2,3,4,5];
 
 function ${1:ListComponent}(props) {
-  // const numbers = props.dataSrc;
-  // const listItems = numbers.map((number) =>
+  // const listItems = todos.map((item) =>
 
   const listItems = props.dataSrc.map((item) =>
     <li key={item.toString()}>
@@ -19,6 +18,7 @@ function ${1:ListComponent}(props) {
 };
 
 ReactDOM.render(
+  // <ListComponent />
   <${1:ListComponent} dataSrc={data1} />,
   document.getElementById('root')
 );
