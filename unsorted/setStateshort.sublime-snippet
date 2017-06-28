@@ -5,7 +5,7 @@ setState(prevState => ({
 }));
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>setState()</tabTrigger>
+  <tabTrigger>setState(prevState =&gt;</tabTrigger>
   <description>react setState(prevState =&gt; (...</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.jsx, source.js</scope>
