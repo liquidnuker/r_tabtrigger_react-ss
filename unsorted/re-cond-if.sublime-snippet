@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+if (props.${1:pr_name}) {
+    return (
+      ${2:<Rklc1_listItems />}
+    );
+  } else {
+    return ${3:()};
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>re-cond-if</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>react conditional render</description>
+  <scope>source.jsx, source.js</scope>
+</snippet>
