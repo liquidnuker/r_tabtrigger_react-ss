@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<Route exact path={${1:match.url + "/${2::spec}"}} component={${3:Comp1}} />
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>re-route-exact-path</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>react Route exact path=""</description>
+  <scope>source.jsx, source.js</scope>
+</snippet>
