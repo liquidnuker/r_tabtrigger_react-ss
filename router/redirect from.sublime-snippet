@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<Redirect from="/${1:1111}" to="/${2:about}" />
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>re-redirect</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>react-router Redirect from="" to=""</description>
+  <scope>source.jsx, source.js</scope>
+</snippet>
