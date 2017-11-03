@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+componentDidMount() {
+  ${1:console.log("componentDidMount");}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>re-componentDidMount</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>after first render/ajax/state updates</description>
+  <scope>source.jsx, source.js</scope>
+</snippet>

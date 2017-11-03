@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+componentDidUpdate() {
+  ${1:console.log("componentDidUpdate");}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>re-componentDidUpdate</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>called after rendering</description>
+  <scope>source.jsx, source.js</scope>
+</snippet>
