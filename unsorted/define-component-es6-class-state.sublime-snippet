@@ -4,25 +4,19 @@ class ${1:ComponentWithState} extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      ${2:property1}: ""
+
     };
 
-    // 
-    this.${3:method1} = this.${3:method1}.bind(this);
+    // binders
+    
   }
-
-  // lifecycle hooks
+  // hooks
   
   // methods
-  ${3:method1}() {
-    this.setState(prevState => ({
-      ${2:property1}: store.state
-    }));
-  }
-
+  
   render() {
     return (
-      ${4:<div onClick=\{this.${3:method1}\}></div>}
+      <div>${1:ComponentWithState}</div>
     );
   }
 }
