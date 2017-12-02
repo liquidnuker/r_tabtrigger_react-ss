@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+createOptions() {
+  let items = [];         
+  for (let i = 1; i <= this.props.${1:pr_totalPages}; i++) {             
+    items.push(<option onClick={() => 
+      { this.props.${2:pr_val_showPage}(i) }} 
+      key={i} value={i}>{i}</option>);   
+  }
+  return items;
+}
+
+<select value={this.props.${3:pr_currentPage}} >
+  {this.createOptions()}
+</select>    
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>re-h-select-options-number</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>dynamic options from Number</description>
+  <scope>source.jsx, source.js</scope>
+</snippet>

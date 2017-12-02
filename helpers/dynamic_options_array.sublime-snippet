@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<select value={this.props.${1:pr_perPage}} >
+{this.props.${2:pr_perPageItems}.map((i) =>
+  <option onClick={() => 
+    { this.props.${3:pr_val_setPageItems}(i) }} key={i} value={i}>{i}
+    </option>
+    )}
+</select> 
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>re-h-select-options-array</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>dynamic options from array[]</description>
+  <scope>source.jsx, source.js</scope>
+</snippet>
