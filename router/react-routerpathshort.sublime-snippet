@@ -3,7 +3,7 @@
 <Route path={${1:match.url + "/${2::spec}"}} component={${3:Comp1}} />
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>route-path</tabTrigger>
+  <tabTrigger>re-route-path</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>react Route path=""</description>
   <scope>source.jsx, source.js</scope>
