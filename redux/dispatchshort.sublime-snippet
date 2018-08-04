@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+store.dispatch({type: "${1:default}"});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>dispatch</tabTrigger>
+  <description>redux store.dispatch({...</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, source.jsx</scope>
+</snippet>
